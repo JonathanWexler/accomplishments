@@ -1,0 +1,24 @@
+{
+  "name": "accomplishments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "package" : "electron-packager /Users/Jon/Desktop/accomplishments Accomplishments --platform=darwin --version=1.0.0 --out=/Users/Jon/Desktop --overwrite --icon=/Users/Jon/Desktop/taccomp.icns",
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Wexler",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-packager": "^8.2.0",
+    "electron-prebuilt": "^1.4.5"
+  },
+  "dependencies": {
+    "menubar": "^5.1.0",
+    "nedb": "^1.8.0"
+  }
+}
+
+
+

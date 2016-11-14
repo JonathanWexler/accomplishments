@@ -1,0 +1,3 @@
+{"accomp":"I built an app to keep track of accomplishments within th emac menubar. This will store in a MongoDB collection and allow for accomps to list in another page.","_id":"6ACzQUJ8BKooDi3S","createdAt":{"$$date":1478497626060},"updatedAt":{"$$date":1478497626060}}
+{"accomp":"Organized items for this week's sprint","_id":"6Er1ssRjEeQqfVzN","createdAt":{"$$date":1478498614892},"updatedAt":{"$$date":1478498614892}}
+{"accomp":"The app is complete enough to save and retrive a list of items here.","_id":"XxDesB00gJzCyGUh","createdAt":{"$$date":1478497862502},"updatedAt":{"$$date":1478497862502}}

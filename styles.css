@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body{
+  /*Allows you to drag the app from the body*/
+}
+
+* {
+  border-radius: 0 !important;
+}
+.submit{
+  width: 100%;
+  position: absolute;
+}
+.nav{
+  position: fixed;
+  background-color: white;
+  z-index: 100;
+  padding-bottom: 3px;
+}
+.nav-justified > li {
+  display: table-cell; 
+  width: 1%
+}
+#title{
+  font-family: Pacifico;
+  color: #337ab7;
+  font-size: 20px;
+  -webkit-app-region: drag;
+  /*text-align: center;*/
+  padding-left: 10px;
+
+}
+.time_block{
+  padding-left: 10px;
+  color: lightgrey;
+  font-size: 10px;
+  /*padding-left: 25px;*/
+}
+.nav_item{
+  margin-bottom: 5px;
+}
+
+#message{
+ outline: none;
+ border: none !important;
+ -webkit-box-shadow: none !important;
+ -moz-box-shadow: none !important;
+ box-shadow: none !important;
+ /*font-family: Pacifico;*/
+}
+
+#main_section{
+  padding-top: 45px;
+}
+
+.pencil{
+  /*font-size: 20px;*/
+  /*padding: 0px;*/
+}
+
+.accomp{
+  background-color: #337ab7;
+  padding: 10px;
+  margin-top: 10px;
+}

@@ -1,0 +1,39 @@
+<html>
+<head>
+  <title>Accomplishments</title>
+
+  <script>
+  window.nodeRequire = require;
+  delete window.module;
+  // const ipc = require('electron').ipcRenderer;
+  </script>
+
+  <!-- Latest compiled and minified Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="action.js"></script>
+
+</head>
+<body>
+  <ul class="nav nav-pills nav-justified">
+    <li class="nav_item" role="title" id="title">Accomplishments</li>
+    <li class="nav_item" role="presentation" id="icon"><a href="#">&#9776;</a></li>
+  </ul> 
+  <section id="main_section">
+    <span id="time_block" class="time_block"></span>
+    <form>
+      <div class="form-group">
+        <label for="accompTextarea"></label>
+        <textarea id="message" class="form-control" id="accompTextarea" rows="7"></textarea>
+      </div>
+      <input id="submit" type="submit" class="btn btn-primary submit"></input>
+    </form>
+  </section>
+</body>
+</html>
